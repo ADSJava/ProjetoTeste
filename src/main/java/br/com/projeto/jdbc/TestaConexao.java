@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author igora 
  */
-public class TestaConexao {
+public class TestaConexao { 
     public static void main(String[] args) {
         try {
             new ConnectionFactory().getConnection();

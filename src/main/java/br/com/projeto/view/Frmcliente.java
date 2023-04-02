@@ -15,6 +15,7 @@ public class Frmcliente extends javax.swing.JFrame {
 
    //Mostrar na tabela
     public void listar(){
+               
         ClientesDAO dao = new ClientesDAO();
         List<Clientes> lista = dao.listarClientes();
         DefaultTableModel dados = (DefaultTableModel) tabelaClientes.getModel();
