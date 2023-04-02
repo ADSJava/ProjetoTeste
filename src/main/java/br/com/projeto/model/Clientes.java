@@ -5,9 +5,9 @@ package br.com.projeto.model;
  * @author igora
  */
 public class Clientes {
-
+ 
     private int id, numero;
-    private String nome,
+    private String nome, 
             rg,
             cpf,
             email,

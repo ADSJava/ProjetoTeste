@@ -30,7 +30,6 @@ public class Frmcliente extends javax.swing.JFrame {
         c.getRg(),
         c.getCpf(),
         c.getEmail(),
-        c.getTelefone(),
         c.getCelular(),
         c.getCep(),
         c.getEndereco(),

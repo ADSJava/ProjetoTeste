@@ -30,14 +30,13 @@ public class ClientesDAO {
         try {
             String sql = 
                 "insert into tb_clientes(nome,rg,cpf,email,telefone,celular,cep,endereco,complemento,bairro,cidade,estado) "
-                + "values(?,?,?,?,?,?,?,?,?,?,?,?)";
+                + "values(?,?,?,?,?,?,?,?,?,?,?)";
             
             PreparedStatement stmt = con.prepareStatement(sql);
             stmt.setString(1,obj.getNome() );
             stmt.setString(2,obj.getRg());
             stmt.setString(3,obj.getCpf());
             stmt.setString(4,obj.getEmail());
-            stmt.setString(5,obj.getTelefone());
             stmt.setString(6,obj.getCelular());
             stmt.setString(7,obj.getCep());
             stmt.setString(8,obj.getEndereco());
@@ -83,7 +82,6 @@ public class ClientesDAO {
                 obj.setRg(rs.getString("rg"));
                 obj.setCpf(rs.getString("cpf"));
                 obj.setEmail(rs.getString("email"));
-                obj.setTelefone(rs.getString("telefone"));
                 obj.setCelular(rs.getString("celular"));
                 obj.setCep(rs.getString("cep"));
                 obj.setEndereco(rs.getString("endereco"));

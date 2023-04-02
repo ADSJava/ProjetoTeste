@@ -7,9 +7,9 @@ import java.sql.DriverManager;
 public class ConnectionFactory {
     public Connection getConnection(){
         
-        try {
+        try { 
            return DriverManager.getConnection("jdbc:mysql://localhost:3306/bdvendas?user=root&password=root") ;
-        } catch (Exception e) {
+        } catch (Exception e) { 
         throw new RuntimeException(e);
         }
     }
