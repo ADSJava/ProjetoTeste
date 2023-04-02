@@ -10,10 +10,7 @@ import java.awt.Color;
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author igora
- */
+
 public class Frmcliente extends javax.swing.JFrame {
 
    //Mostrar na tabela

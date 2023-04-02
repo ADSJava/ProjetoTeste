@@ -10,7 +10,7 @@ public class ConnectionFactory {
         try { 
            return DriverManager.getConnection("jdbc:mysql://localhost:3306/bdvendas?user=root&password=root") ;
         } catch (Exception e) { 
-        throw new RuntimeException(e);
+        throw new RuntimeException(e); 
         }
     }
 }

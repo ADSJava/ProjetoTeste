@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author igora
+ * @author igora 
  */
 public class TestaConexao {
     public static void main(String[] args) {

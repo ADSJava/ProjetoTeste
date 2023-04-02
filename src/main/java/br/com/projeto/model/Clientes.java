@@ -9,7 +9,7 @@ public class Clientes {
     private int id, numero;
     private String nome, 
             rg,
-            cpf,
+            cpf, 
             email,
             celular,
             cep,
